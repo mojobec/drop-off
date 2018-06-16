@@ -7,10 +7,16 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DropOff.Shared", "DropOff\D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropOff.UWP", "DropOff\DropOff.UWP\DropOff.UWP.csproj", "{302C4F50-92AE-424A-841F-4B4998384CF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropOff.Wasm", "DropOff\DropOff.Wasm\DropOff.Wasm.csproj", "{D571E6AC-EC11-4B99-A1A8-6BA3436D743E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DropOff.Wasm", "DropOff\DropOff.Wasm\DropOff.Wasm.csproj", "{D571E6AC-EC11-4B99-A1A8-6BA3436D743E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7170A23E-D63F-41C3-940F-60DA713D3898}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DropOff\DropOff.Shared\DropOff.Shared.projitems*{302c4f50-92ae-424a-841f-4b4998384cf4}*SharedItemsImports = 4
 		DropOff\DropOff.Shared\DropOff.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
